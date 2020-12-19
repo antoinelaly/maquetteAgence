@@ -1,0 +1,50 @@
+/*.border {
+	border: 3px solid black;
+	margin: 2px;
+}*/
+
+.red {
+	border-color: red;
+}
+
+.green {
+	border-color: green;
+}
+
+.blue {
+	border-color: blue;
+}
+
+.purple {
+	border-color: #a70da7;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+#container {
+	width: 100%;
+	max-width: 1200px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	list-style: none;
+	padding-left: 30px;
+}
